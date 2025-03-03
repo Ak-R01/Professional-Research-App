@@ -1,0 +1,17 @@
+.form-container {
+    width: 100%;
+    justify-content: center;
+}
+.button-submit {
+    margin: 20px 0 10px 0;
+    background-color: #333333;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 0 rgba(22, 22, 22, 0.15);
+}
