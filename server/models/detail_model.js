@@ -26,6 +26,15 @@ const detailSchema = new mongoose.Schema({
     DOB: {
         type: Date,
     },
+    Description: {
+        type: String,
+    },
+    designation: {
+        type: String,
+    },
+    email: {
+        type: String,
+    },
     address: {
         type: String,
     },
@@ -59,6 +68,10 @@ const detailSchema = new mongoose.Schema({
     },
     certificationCourse: {
         type: [[String]],
+    },
+    password: {
+        type: String,
+        required: true,
     },
 })
 
